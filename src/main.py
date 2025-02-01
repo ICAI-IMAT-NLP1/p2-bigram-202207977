@@ -1,11 +1,11 @@
-from data_processing import (
+from src.data_processing import (
     load_and_preprocess_data,
     char_to_index,
     index_to_char,
     count_bigrams,
 )
 
-from bigram_model import (
+from src.bigram_model import (
     bigrams_count_to_probabilities,
     generate_name,
     calculate_log_likelihood,

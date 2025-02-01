@@ -52,7 +52,9 @@ def test_load_and_preprocess_data():
     # Check if all expected bigrams are in the result
     assert set(bigrams) == set(
         expected_bigrams
-    ), "The bigrams in the result do not match the expected bigrams."
+    ), f"The bigrams in the result do not match the expected bigrams."
+
+
 
 
 @pytest.mark.order(2)
